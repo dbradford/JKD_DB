@@ -7,11 +7,22 @@
   <sounds name="sound"/>
   <sprites name="sprites">
     <sprite>sprites\ST_Cobblestone</sprite>
-    <sprite>sprites\sprite1</sprite>
+    <sprite>sprites\ST_1_4_PatternBorder_CORNER</sprite>
+    <sprite>sprites\ST_1_4_PatternBorder_WALL</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
-  <rooms name="rooms"/>
+  <objects name="objects">
+    <objects name="Tiles">
+      <object>objects\OT_BaseTile</object>
+      <object>objects\OT_Cobblestone</object>
+      <object>objects\OT_1_4_Cobblestone_WALL</object>
+      <object>objects\OT_1_4_Cobblestone_CORNER</object>
+    </objects>
+  </objects>
+  <rooms name="rooms">
+    <room>rooms\R_TestRoom</room>
+  </rooms>
   <help>
     <rtf>help.rtf</rtf>
   </help>
